@@ -10,17 +10,18 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  name: 'Jafree',
+  subtitle: 'I like to make stuff with code',
+  cta: 'About Me',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  img: 'profile2.jpg',
+  paragraphOne: 'I am a Web Developer with enthusiasm and focus on Full Stack Development.',
+  paragraphTwo:
+    'I am passionate about building scalable software, creating effective solutions, and learning every day to grow professionally in the computer science field.',
+  paragraphThree: 'Feel free to contact me via email at any time - jafree282@gmail.com',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -28,38 +29,50 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'facerecognition.JPG',
+    title: 'Face Recognition App',
+    info:
+      "A full-stack web application using Express, React, Node and NoSQL which allows you to identify the detection of faces in any image supplied. This was achieved thanks to Clarifai's artificial intelligence API.",
+    info2: 'I used React, Node, Express.js and NoSQL in order to create this web application.',
+    url: 'https://smart-brain-new-app.herokuapp.com/',
+    repo: 'https://github.com/jafreekhan/smart-brain', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'bingo.JPG',
+    title: 'College Application App',
+    info:
+      'A full-stack web application using Django and React, this app allows students to generate College Recomendation based on their grades, high school and location.',
+    info2:
+      "I used Django, React and Django's built in NoSQL database to create this web application.",
+    // url: '',
+    repo: 'https://github.com/Omarfos/CSE416', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'robofriends.JPG',
+    title: 'Robo Friends',
+    info: 'React App that showcases the power of react with some cards as Robots',
+    info2: 'It is super cool to look at',
+    url: 'https://jafreekhan.github.io/Robofriends/',
+    repo: 'https://github.com/jafreekhan/Robofriends', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'backgroundGenerator.JPG',
+    title: 'Background Generator',
+    info: 'Customize your ideal background gradient with the help of this app',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://jafreekhan.github.io/backgroundGenerator/',
+    repo: 'https://github.com/jafreekhan/backgroundGenerator', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
   cta: '',
-  btn: '',
-  email: '',
+  btn: "Let's talk",
+  email: 'jafree282@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,28 +80,28 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
+      name: 'instagram',
+      url: 'https://www.instagram.com/jafreekomeness/',
     },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'codepen',
+    //   url: '',
+    // },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/jafree-khan/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/jafreekhan',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
