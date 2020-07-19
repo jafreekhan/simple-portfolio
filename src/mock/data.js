@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile2.jpg',
+  img: 'profile.jpg',
   paragraphOne: 'I am a Web Developer with enthusiasm and focus on Full Stack Development.',
   paragraphTwo:
     'I am passionate about building scalable software, creating effective solutions, and learning every day to grow professionally in the computer science field.',
