@@ -44,7 +44,7 @@ export const projectsData = [
     info:
       'A full-stack web application using Django and React, this app allows students to generate College Recomendation based on their grades, high school and location.',
     info2:
-      "I used Django, React and Django's built in NoSQL database to create this web application.",
+      "Developed with 3 other team members using Django, React and Django's built in NoSQL database to create this web application.",
     // url: '',
     repo: 'https://github.com/Omarfos/CSE416', // if no repo, the button will not show up
   },
