@@ -22,7 +22,7 @@ export const aboutData = {
   paragraphTwo:
     'I am passionate about building scalable software, creating effective solutions, and learning every day to grow professionally in the computer science field.',
   paragraphThree: 'Feel free to contact me via email at any time - jafree282@gmail.com',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1i8J2rLC60tPstNHvg1G1hch23ovz2pJx/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
